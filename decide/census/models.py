@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Census(models.Model):
-    voting_id = models.PositiveIntegerField()
+    voting_id3 = models.PositiveIntegerField()
     voter_id = models.PositiveIntegerField()
 
     class Meta:
